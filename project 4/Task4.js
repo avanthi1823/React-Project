@@ -29,7 +29,7 @@ class Task4 extends Component{
   render(){
     return(
       <div>
-          <Fruits/>
+          <Name/>
           <ul>
             {this.state.data.map((item)=><List data={item}/>)}
           </ul>
@@ -38,7 +38,7 @@ class Task4 extends Component{
   }
 }
 
-class Fruits extends React.Component{
+class Name extends React.Component{
   render(){
     return(
       <div>
